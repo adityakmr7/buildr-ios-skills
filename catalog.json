@@ -1,0 +1,179 @@
+{
+  "name": "buildr-ios-skills",
+  "version": "2.2.0",
+  "displayName": "BuildrStudio iOS AI Skills Suite",
+  "website": "https://buildrstudio.in",
+  "description": "The official BuildrStudio (buildrstudio.in) suite of 21 AI Agent Skills for modern iOS, Swift 6, SwiftUI, SwiftData, StoreKit 2, Core Data, App Intents, Security, Multiplatform, Interface Polish, and Architecture.",
+  "author": "BuildrStudio (buildrstudio.in)",
+  "license": "MIT",
+  "skills": [
+    {
+      "name": "buildr-ui",
+      "displayName": "Buildr SwiftUI Pro",
+      "path": "skills/buildr-ui/SKILL.md",
+      "description": "Modern SwiftUI architecture and API standards (iOS 17+ / iOS 18+). Covers the Observation framework (@Observable), type-safe navigation, clean state flow, and deprecation migrations.",
+      "category": "Architecture & UI",
+      "tags": ["buildr", "swiftui", "ios17", "ios18", "observation", "navigation", "accessibility"]
+    },
+    {
+      "name": "buildr-design",
+      "displayName": "Buildr SwiftUI Design Principles",
+      "path": "skills/buildr-design/SKILL.md",
+      "description": "Enforces Apple Human Interface Guidelines (HIG) and native iOS aesthetics. Emphasizes restraint over decoration, strict 4/8-pt grid discipline, semantic system colors, and native controls.",
+      "category": "Design & UX",
+      "tags": ["buildr", "hig", "design", "layout", "grid", "widgetkit", "typography"]
+    },
+    {
+      "name": "buildr-polish",
+      "displayName": "Buildr Interface Polish & Delight",
+      "path": "skills/buildr-polish/SKILL.md",
+      "description": "Interface polish and micro-interactions skill inspired by 'make-interfaces-feel-better'. Covers concentric corner radii, tactile spring press feedback, sensory haptics (iOS 17+), optical alignment, and tabular digits.",
+      "category": "Design & UX",
+      "tags": ["buildr", "polish", "haptics", "micro-interactions", "concentric-radii", "optical-alignment", "delight"]
+    },
+    {
+      "name": "buildr-arch",
+      "displayName": "Buildr Architecture Patterns",
+      "path": "skills/buildr-arch/SKILL.md",
+      "description": "Architectural playbook for Swift and iOS applications. Covers pattern selection (MVVM, Clean Architecture, TCA, Coordinator), dependency injection, unidirectional data flow, and modularization.",
+      "category": "Architecture & UI",
+      "tags": ["buildr", "architecture", "mvvm", "clean-architecture", "tca", "udf", "dependency-injection"]
+    },
+    {
+      "name": "buildr-uikit-bridge",
+      "displayName": "Buildr UIKit Bridge",
+      "path": "skills/buildr-uikit-bridge/SKILL.md",
+      "description": "Expert guide for UIKit and SwiftUI interoperability. Covers UIViewRepresentable, UIViewControllerRepresentable, Coordinator delegate patterns, UIHostingController embedding, and lifecycle synchronization.",
+      "category": "Architecture & UI",
+      "tags": ["buildr", "uikit", "swiftui", "uiviewrepresentable", "uihostingcontroller", "bridging"]
+    },
+    {
+      "name": "buildr-multiplatform",
+      "displayName": "Buildr Multiplatform Adaptations",
+      "path": "skills/buildr-multiplatform/SKILL.md",
+      "description": "Expert guide for iPadOS and macOS multiplatform adaptations. Covers Stage Manager multitasking, Split View, Drag and Drop (.onDrag, .onDrop, Transferable), pointer interactions, and Mac Catalyst menu bars.",
+      "category": "Architecture & UI",
+      "tags": ["buildr", "ipados", "macos", "stage-manager", "drag-and-drop", "pointer", "catalyst"]
+    },
+    {
+      "name": "buildr-concurrency",
+      "displayName": "Buildr Concurrency Pro",
+      "path": "skills/buildr-concurrency/SKILL.md",
+      "description": "Complete guide for Swift 6 data-race safety, actor isolation, Sendable enforcement, structured concurrency (TaskGroup, async let), cooperative cancellation, and compiler diagnostics.",
+      "category": "Concurrency & Safety",
+      "tags": ["buildr", "swift6", "concurrency", "actors", "sendable", "async-await", "threads"]
+    },
+    {
+      "name": "buildr-perf",
+      "displayName": "Buildr Performance Audit",
+      "path": "skills/buildr-perf/SKILL.md",
+      "description": "Diagnostic and profiling workflow for eliminating SwiftUI view churn, memory leaks, high CPU usage, retain cycles, and scroll hitches with Xcode Instruments.",
+      "category": "Performance & Profiling",
+      "tags": ["buildr", "performance", "instruments", "memory-leaks", "view-churn", "optimization"]
+    },
+    {
+      "name": "buildr-swiftdata",
+      "displayName": "Buildr SwiftData Pro",
+      "path": "skills/buildr-swiftdata/SKILL.md",
+      "description": "Modern SwiftData persistence patterns. Covers @Model schemas, safe #Predicate expressions, ModelActor background processing, CloudKit sync constraints, and VersionedSchema migrations.",
+      "category": "Data & Persistence",
+      "tags": ["buildr", "swiftdata", "persistence", "cloudkit", "database", "predicates", "migration"]
+    },
+    {
+      "name": "buildr-coredata",
+      "displayName": "Buildr Core Data Expert",
+      "path": "skills/buildr-coredata/SKILL.md",
+      "description": "Enterprise Core Data architecture. Covers thread-safe context confinement, high-performance batch operations (NSBatchInsertRequest), persistent history tracking, and CloudKit sync.",
+      "category": "Data & Persistence",
+      "tags": ["buildr", "core-data", "persistence", "sqlite", "batch-insert", "cloudkit", "history-tracking"]
+    },
+    {
+      "name": "buildr-storekit",
+      "displayName": "Buildr StoreKit 2 & Monetization",
+      "path": "skills/buildr-storekit/SKILL.md",
+      "description": "Expert guide for Apple's StoreKit 2 and In-App Purchases. Covers Product queries, purchase flows, auto-renewable subscriptions, SubscriptionStoreView, transaction listeners (Transaction.updates), and .storekit testing.",
+      "category": "Monetization & Store",
+      "tags": ["buildr", "storekit", "storekit2", "subscriptions", "in-app-purchases", "paywall", "monetization"]
+    },
+    {
+      "name": "buildr-appstore",
+      "displayName": "Buildr App Store & Privacy",
+      "path": "skills/buildr-appstore/SKILL.md",
+      "description": "Complete App Store readiness, submission review, and privacy compliance skill. Covers PrivacyInfo.xcprivacy (required reasons APIs, tracking domains), App Store Review guidelines, export compliance, and ASO metadata.",
+      "category": "Monetization & Store",
+      "tags": ["buildr", "appstore", "privacy-manifest", "rejections", "aso", "compliance", "xcprivacy"]
+    },
+    {
+      "name": "buildr-api",
+      "displayName": "Buildr API Design Guidelines",
+      "path": "skills/buildr-api/SKILL.md",
+      "description": "Enforces official Swift API Design Guidelines. Covers call-site clarity, grammatical argument labels, naming conventions, mutating/nonmutating pairs, and documentation comments.",
+      "category": "Language & API",
+      "tags": ["buildr", "api-design", "swift-guidelines", "naming", "conventions", "documentation"]
+    },
+    {
+      "name": "buildr-format",
+      "displayName": "Buildr FormatStyle Pro",
+      "path": "skills/buildr-format/SKILL.md",
+      "description": "Modern Foundation FormatStyle and .formatted() APIs. Replaces legacy DateFormatter and NumberFormatter with type-safe formatting for dates, currencies, numbers, durations, lists, and measurements.",
+      "category": "Foundation & UI",
+      "tags": ["buildr", "formatstyle", "foundation", "currency", "dates", "numbers", "localization"]
+    },
+    {
+      "name": "buildr-intents",
+      "displayName": "Buildr App Intents Expert",
+      "path": "skills/buildr-intents/SKILL.md",
+      "description": "Apple App Intents framework (iOS 16+, 17, 18+). Covers AppIntent, AppEntity, EntityQuery, AppShortcutsProvider, interactive widgets, Siri shortcuts, and Apple Intelligence integration.",
+      "category": "System Integration",
+      "tags": ["buildr", "app-intents", "siri", "shortcuts", "spotlight", "interactive-widgets", "apple-intelligence"]
+    },
+    {
+      "name": "buildr-widgets",
+      "displayName": "Buildr Widgets & Live Activities",
+      "path": "skills/buildr-widgets/SKILL.md",
+      "description": "Deep engineering guide for WidgetKit and ActivityKit (iOS 16, 17, 18+). Covers TimelineProvider, interactive widgets, Live Activities, Dynamic Island layouts, and App Groups data sharing.",
+      "category": "Extensions & UI",
+      "tags": ["buildr", "widgets", "widgetkit", "live-activities", "dynamic-island", "app-groups", "activitykit"]
+    },
+    {
+      "name": "buildr-background",
+      "displayName": "Buildr Background Execution Expert",
+      "path": "skills/buildr-background/SKILL.md",
+      "description": "Apple platform background execution. Covers BGTaskScheduler (app refresh and processing tasks), background URLSession transfers, beginBackgroundTask expiration handlers, and silent push notifications.",
+      "category": "System & Runtime",
+      "tags": ["buildr", "background-tasks", "bgtaskscheduler", "urlsession", "silent-push", "multitasking"]
+    },
+    {
+      "name": "buildr-testing",
+      "displayName": "Buildr Swift Testing Pro",
+      "path": "skills/buildr-testing/SKILL.md",
+      "description": "Modern Apple Swift Testing framework mastery. Covers @Test, @Suite, #expect, #require, parameterized table-driven tests, async testing, and XCTest migrations.",
+      "category": "Quality & Testing",
+      "tags": ["buildr", "testing", "swift-testing", "qa", "unit-tests", "expect", "suites"]
+    },
+    {
+      "name": "buildr-debugger",
+      "displayName": "Buildr Debugger Agent",
+      "path": "skills/buildr-debugger/SKILL.md",
+      "description": "Systematic triage and debugging guide for runtime crashes (EXC_BAD_ACCESS, SIGABRT), LLDB command sequences, symbolication, and Thread/Address Sanitizer workflows.",
+      "category": "Debugging & Diagnostics",
+      "tags": ["buildr", "debugging", "lldb", "crashes", "sanitizers", "troubleshooting"]
+    },
+    {
+      "name": "buildr-logs",
+      "displayName": "Buildr Observability & Logging Expert",
+      "path": "skills/buildr-logs/SKILL.md",
+      "description": "Apple Unified Logging, MetricKit, and performance signposts. Covers os.Logger, privacy redaction rules, OSSignposter tracing in Instruments, and metric payload collection.",
+      "category": "Observability & Telemetry",
+      "tags": ["buildr", "oslog", "logging", "signposts", "metrickit", "telemetry", "privacy"]
+    },
+    {
+      "name": "buildr-security",
+      "displayName": "Buildr Security Expert",
+      "path": "skills/buildr-security/SKILL.md",
+      "description": "Enterprise-grade iOS security and cryptography. Covers Keychain Services (SecItem), CryptoKit (AES-GCM, Secure Enclave, Curve25519), LocalAuthentication (Face ID / Touch ID), and certificate pinning.",
+      "category": "Security & Cryptography",
+      "tags": ["buildr", "security", "keychain", "cryptokit", "biometrics", "face-id", "certificate-pinning"]
+    }
+  ]
+}
